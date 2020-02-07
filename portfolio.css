@@ -1,0 +1,74 @@
+* {
+    margin:0;
+    padding: 0;
+
+}
+body {
+    background-color: black;
+    color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.name {
+    
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 150px;
+}
+.name:scroll {
+    opacity: 0;
+}
+.quotes{
+    position: absolute;
+    top:50%;
+    left:50%;
+    height:800px;
+    transform:translate(-55%,500px);
+    background-image: url("pic0.jpeg");
+    background-size: cover;
+}
+blockquote {
+    margin-left: 100px;
+    margin-top: 400px;
+    width:1501px;
+    font-size: 80px;
+}
+.navigation {
+    
+    overflow: hidden;
+    color:rgb(44, 41, 41);
+}
+.navigation a {
+    
+    font-size: 25px;
+    float: right;
+    margin:20px;
+    
+}
+.navigation a:hover{
+    color:white;
+    font-size: 30px;
+    
+}
+.interests{
+    position: absolute;
+    top:50%;
+    left:50%;
+    height:800px;
+    width:800PX;
+    transform:translate(-55%,600px);
+    color:black;
+    font-family: cursive;
+}
+.interests h1{
+    color:white;
+    margin-left: 150px;
+    font-size: 50PX;
+}
+.interests:hover{
+    color: brown;
+    font-size: 100px;
+
+}
+
